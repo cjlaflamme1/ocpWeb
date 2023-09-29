@@ -8,12 +8,17 @@
 
   <a href="#main-content" class="header__skip">Skip to content</a>
   <div class="nav-wrapper">
-    <nav class="navbar bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <div class="navbar-brand">
+        <div class="navbar-brand flex-grow-1">
           {% module "logo" path="@hubspot/logo" %}
         </div>
-        {% module 'custom-nav' path='../../modules/custom-nav.module' %}
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          {% module 'custom-nav' path='../../modules/custom-nav.module' %}
+        </div>
       </div>
     </nav>
   </div>

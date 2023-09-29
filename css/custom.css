@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap");
 body {
-  font-family: 'Rajdhani', sans-serif; 
-}
+  font-family: 'Rajdhani', sans-serif; }
+
+header div.nav-wrapper {
+  background-color: #000000;
+  color: #FFFFFF; }
+  header div.nav-wrapper nav.navbar div#navbarNav ul.navbar-nav li.nav-item {
+    color: #FFFFFF; }
+  header div.nav-wrapper nav.navbar #hs_cos_wrapper_custom-nav {
+    display: flex;
+    flex-grow: 1; }

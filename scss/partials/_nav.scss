@@ -1,0 +1,21 @@
+header {
+  div.nav-wrapper {
+    background-color: $black;
+    color: $white;
+    nav.navbar {
+      div#navbarNav {
+        ul.navbar-nav {
+          li.nav-item {
+            color: $white;
+
+          }
+        }
+      }
+
+      #hs_cos_wrapper_custom-nav {
+        display: flex;
+        flex-grow: 1;
+      }
+    }
+  }
+}

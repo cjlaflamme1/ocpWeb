@@ -1,0 +1,9 @@
+{% set menu_top = menu(module.menu) %}
+<ul class="navbar-nav navbar-topnav">
+  {% for child in menu_top.children %}
+    <li class="nav-item">
+      {% if child.url %}<a class="nav-link {% if child.activeBranch %}active{% endif %}" href="{{ child.url }}">{{ child.label }}</a>
+      {% else %}{{ child.label }}{% endif %}
+    </li>
+  {% endfor %}
+</ul>

@@ -180,7 +180,7 @@ form .hs-button {
     padding: 10px;
   }
 
-  .body-container-wrapper .hs-search-field__suggestions li a {
+  .-wrapper .hs-search-field__suggestions li a {
     color: #494A52;
     padding: 0.35rem 0.7rem;
     text-decoration: none;

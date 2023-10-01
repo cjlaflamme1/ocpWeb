@@ -26,3 +26,16 @@ div.headline-container img.store-icon.google {
 
 div.app-example-container {
   color: #000000; }
+  div.app-example-container img.app-example-image {
+    max-height: 600px; }
+
+footer.footer {
+  background-color: #000000; }
+  footer.footer img.footer-logo {
+    max-height: 200px;
+    height: 200px; }
+  footer.footer h3 {
+    color: #FFFFFF; }
+  footer.footer div.rbt-container {
+    background-color: #F9E9A7;
+    border-radius: 10px; }

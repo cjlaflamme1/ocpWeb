@@ -1,3 +1,6 @@
 div.app-example-container {
   color: $black;
+  img.app-example-image {
+    max-height: 600px;
+  }
 }

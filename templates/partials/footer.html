@@ -3,41 +3,17 @@
   label: Footer
 -->
 <footer class="footer">
-  {% dnd_area "footer"
-    label="Footer",
-    class="footer__container content-wrapper"
-  %}
-
-    {# Social follow and copyright #}
-
-    {% dnd_section %}
-      {% dnd_column %}
-        {% dnd_row %}
-          {% dnd_module path="../../modules/social-follow" %}
-            {% module_attribute "social_link" is_json=True %}
-              [
-                {"social_account": "facebook-f"},
-                {"social_account": "linkedin-in"},
-                {"social_account": "twitter"},
-                {"social_account": "instagram"}
-              ]
-            {% end_module_attribute %}
-          {% end_dnd_module %}
-        {% end_dnd_row %}
-        {% dnd_row
-          margin={
-            "top": 12,
-            "bottom": 12
-          }
-        %}
-          {% dnd_module
-            path="@hubspot/rich_text",
-            html='<div style="text-align: center; font-size: 0.7rem;"><span>© {{ year }} All rights reserved.</span></div>'
-          %}
-          {% end_dnd_module %}
-        {% end_dnd_row %}
-      {% end_dnd_column %}
-    {% end_dnd_section %}
-
-  {% end_dnd_area %}
+  <div class="d-flex justify-content-around container p-5">
+    <div>
+      <img src="https://outdoorcommunityproject.com/hubfs/Original%20Logo.svg" class="img-fluid footer-logo" />
+    </div>
+    <div class="align-self-end mb-3">
+      <h3>was developed by</h3>
+    </div>
+    <div class="rbt-container">
+      <a href="https://www.linkedin.com/in/chad-j-laflamme/" target="_blank">
+        <img src="https://outdoorcommunityproject.com/hubfs/Red%20Beard%20Technologies_transparent-crop.png" class="img-fluid footer-logo" />
+      </a>
+    </div>
+  </div>
 </footer>

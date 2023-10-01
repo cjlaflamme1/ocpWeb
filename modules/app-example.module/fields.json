@@ -30,19 +30,12 @@
     "show_loading" : true
   },
   {
-    "label": "Apple Store Icon",
-    "name": "icon1",
-    "type": "image",
-    "responsive": true,
-    "resizable": true,
-    "show_loading" : true
-  },
-  {
-    "label": "Google Store Icon",
-    "name": "icon2",
-    "type": "image",
-    "responsive": true,
-    "resizable": true,
-    "show_loading" : true
+    "name" : "reverse",
+    "label" : "Reverse Column Order",
+    "required" : false,
+    "locked" : false,
+    "type" : "boolean",
+    "display":"checkbox",
+    "default" : false
   }
 ]

@@ -1,0 +1,15 @@
+footer.footer {
+  background-color: $black;
+  img.footer-logo {
+    max-height: 200px;
+    height: 200px;
+  }
+  h3 {
+    color: $white;
+
+  }
+  div.rbt-container {
+    background-color: $yellow-tan;
+    border-radius: 10px;
+  }
+}

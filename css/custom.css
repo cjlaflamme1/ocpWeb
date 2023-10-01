@@ -1,6 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap");
 body {
+  background-color: #000000 !important; }
+
+body {
   font-family: 'Rajdhani', sans-serif; }
+  body h1, body h2, body h3, body h4, body h5 {
+    font-family: 'Rajdhani', sans-serif; }
+  body h1, body h2, body h3 {
+    font-weight: 600; }
 
 header div.nav-wrapper {
   background-color: #000000;
@@ -10,3 +17,12 @@ header div.nav-wrapper {
   header div.nav-wrapper nav.navbar #hs_cos_wrapper_custom-nav {
     display: flex;
     flex-grow: 1; }
+
+div.headline-container h1, div.headline-container h3 {
+  color: #FFFFFF; }
+
+div.headline-container img.store-icon.google {
+  max-width: 155px; }
+
+div.app-example-container {
+  color: #000000; }

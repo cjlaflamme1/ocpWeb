@@ -17,11 +17,23 @@
 
   {# Hero banner #}
 
-  {% include_dnd_partial path="../sections/hero-banner.html" %}
+  {% dnd_section
+    background_color='rgba(0,0,0,1)'
+  %}
+    {% dnd_module path='../modules/headline'
+    %}
+    {% end_dnd_module %}
+  {% end_dnd_section %}
 
   {# Two column image right #}
 
-  {% include_dnd_partial path="../sections/multi-row-content.html" %}
+  {% dnd_section
+    background_color='rgba(255,255,255,1)'
+  %}
+    {% dnd_module path='../modules/app-example'
+    %}
+    {% end_dnd_module %}
+  {% end_dnd_section %}
 
   {# Two column image left #}
 

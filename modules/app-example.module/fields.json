@@ -1,0 +1,48 @@
+[
+  {
+    "name" : "title",
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Outdoor Community Project"
+  },
+  {
+    "name" : "subtitle",
+    "label" : "Subtitle",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Find Your Community"
+  },
+  {
+    "label": "Image",
+    "name": "image",
+    "type": "image",
+    "responsive": true,
+    "resizable": true,
+    "show_loading" : true
+  },
+  {
+    "label": "Apple Store Icon",
+    "name": "icon1",
+    "type": "image",
+    "responsive": true,
+    "resizable": true,
+    "show_loading" : true
+  },
+  {
+    "label": "Google Store Icon",
+    "name": "icon2",
+    "type": "image",
+    "responsive": true,
+    "resizable": true,
+    "show_loading" : true
+  }
+]

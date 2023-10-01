@@ -9,12 +9,12 @@
       </div>
       <div>
         {% if module.icon1.src %}
-          <a href="#">
+          <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img class="img-fluid store-icon apple" src="{{ module.icon1.src }}" alt="{{ module.icon1.alt }}"/>
           </a>
         {% endif %}
         {% if module.icon2.src %}
-          <a href="#">
+          <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img class="img-fluid store-icon google" src="{{ module.icon2.src }}" alt="{{ module.icon1.alt }}"/>
           </a>
         {% endif %}
@@ -25,6 +25,22 @@
       {% if module.image.src %}
         <img class="img-fluid" src="{{ module.image.src }}" alt="{{ module.image.alt }}"/>
       {% endif %}
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Coming soon!</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        The Outdoor Community Project will be coming to the app store soon!  If you would like to join early, head on over to the contact page and request a link.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
     </div>
   </div>
 </div>

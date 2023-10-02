@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap");
 body {
-  background-color: #000000 !important; }
-
-body {
   font-family: 'Rajdhani', sans-serif; }
   body h1, body h2, body h3, body h4, body h5 {
     font-family: 'Rajdhani', sans-serif; }
@@ -39,3 +36,10 @@ footer.footer {
   footer.footer div.rbt-container {
     background-color: #F9E9A7;
     border-radius: 10px; }
+
+div.body-container--blog-post {
+  background-color: #FFFFFF;
+  margin-top: 130px; }
+
+div.body-container--blog-index {
+  margin-top: 130px; }

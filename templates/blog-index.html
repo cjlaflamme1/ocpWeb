@@ -10,17 +10,16 @@
 {% block body %}
 {% dnd_area "dnd_area"
   label="Main section",
-  class="body-container body-container--blog-index"
+  class="body-container body-container--blog-index p-0"
 %}
 
   {# Hero banner #}
 
   {% dnd_section
-    background_color="#f8fafc",
-    max_width=600,
+    background_color="#000000",
     padding={
       "default": {
-        "top": 80,
+        "top": 0,
         "right": 0,
         "bottom": 80,
         "left": 0
@@ -35,11 +34,22 @@
   %}
     {% dnd_column %}
       {% dnd_row %}
-        {% dnd_module
-          path="@hubspot/rich_text",
-          html='<div style="text-align: center;"><h1>Blog</h1><p>Use this space to tell everyone about what you have to offer.</p></div>'
-        %}
-        {% end_dnd_module %}
+      {% dnd_module path='../modules/headline.module', 
+      title="Outdoor Community Project",
+      subtitle="Find Your Community",
+      image={
+        'alt': 'OCP Logo',
+        'src': 'https://outdoorcommunityproject.com/hubfs/Original%20Logo%20Symbol.png'
+      },
+      icon1={
+        'alt': 'Apple Store Icon',
+        'src': 'https://outdoorcommunityproject.com/hubfs/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg'
+      },
+      icon2={
+        'alt': 'Google Play Icon',
+        'src': 'https://outdoorcommunityproject.com/hubfs/google-play-badge-1.png'
+      }
+    %}{% end_dnd_module %}
       {% end_dnd_row %}
       {% dnd_row %}
         {% dnd_module

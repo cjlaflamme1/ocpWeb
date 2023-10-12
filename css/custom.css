@@ -15,7 +15,7 @@ header div.nav-wrapper {
     display: flex;
     flex-grow: 1; }
 
-div.headline-container h1, div.headline-container h3 {
+div.headline-container h1, div.headline-container h3, div.headline-container h4 {
   color: #FFFFFF; }
 
 div.headline-container img.store-icon.google {

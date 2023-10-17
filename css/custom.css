@@ -43,3 +43,12 @@ div.body-container--blog-post {
 
 div.body-container--blog-index {
   margin-top: 130px; }
+
+body div.body-container.body-container--blog-index.custom-ocp section.hs-blog-post-listing.hs-blog-post-listing--grid article.hs-blog-post-listing__post {
+  padding: 20px;
+  margin-right: 0 !important; }
+  body div.body-container.body-container--blog-index.custom-ocp section.hs-blog-post-listing.hs-blog-post-listing--grid article.hs-blog-post-listing__post a.hs-blog-post-listing__post-button {
+    background-color: #0836B7; }
+  body div.body-container.body-container--blog-index.custom-ocp section.hs-blog-post-listing.hs-blog-post-listing--grid article.hs-blog-post-listing__post a.hs-blog-post-listing__post-author-name,
+  body div.body-container.body-container--blog-index.custom-ocp section.hs-blog-post-listing.hs-blog-post-listing--grid article.hs-blog-post-listing__post a.hs-blog-post-listing__post-title-link {
+    color: #0D54D1; }
